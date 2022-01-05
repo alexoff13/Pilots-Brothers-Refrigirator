@@ -69,9 +69,7 @@ square.forEach(id => {
         change(id);
         setTimeout(() => {
             if (checker() === true) {
-                setTimeout(() => {
-                    location.reload();
-                }, 200);
+                alert('You win')
             }
         }, 50);
 
